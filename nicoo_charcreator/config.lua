@@ -2,22 +2,22 @@ Config = {}
 
 -- Language du menu
 -- Menu language
-Config.Locale = 'lt'
+Config.Locale = 'fr'
 
 -- Location du spawn joueur après la création du personnage
 -- Rental of player spawn after character creation
-Config.PlayerSpawn = {x = -700.96, y = 5767.56, z = 17.33, h = -338.35}
+Config.PlayerSpawn = {x = -1042.635, y =-2745.828, z = 21.359, h = -30.0}
 
 -- Il faut a maximum 23 nom pour le père & 21 nom pour la mère
 -- You need a maximum of 23 name for the father & 21 name for the mother
-Config.FatherNamesList = {"Benjaminas", "Danielius", "Džošas", "Nojus", "Andrius", "Chuanas", "Aleksas", "Izaokas", "Evanas", "Etanas", "Vincentas", "Angelas", "Diegas", "Adrianas", "Gabrielius", "Mykolas", "Santjagas", "Kevinas", "Luisas", "Samuelis", "Antonas", "Klaudas", "Nikas", "Jonas"}
-Config.MotherNamesList = {"Hana", "Aubrė", "Jazmina", "Gizelė", "Amelija", "Izabela", "Zoja", "Eva", "Kamilė", "Violeta", "Sofija", "Evelina", "Nikolė", "Ešlė", "Greisė", "Brijana", "Natalija", "Olivija", "Elžbieta", "Šarlotė", "Ema", "Miglė"}
+Config.FatherNamesList = {"Benjamin", "Daniel", "Joshua", "Noah", "Andrew", "Juan", "Alex", "Isaac", "Evan", "Ethan", "Vincent", "Angel", "Diego", "Adrian", "Gabriel", "Michael", "Santiago", "Kevin", "Louis", "Samuel", "Anthony", "Claude", "Niko", "John"}
+Config.MotherNamesList = {"Hannah", "Aubrey", "Jasmine", "Gisele", "Amelia", "Isabella", "Zoe", "Ava", "Camila", "Violet", "Sophia", "Evelyn", "Nicole", "Ashley", "Gracie", "Brianna", "Natalie", "Olivia", "Elizabeth", "Charlotte", "Emma", "Misty"}
 
 -- Liste des tenues
 -- List of outfits
 Config.Tenue = {
 	{
-		label = 'Be rūbų',
+		label = 'No clothes',
 		id = {
 			male = {
 				tshirt = {15, 0},
@@ -66,11 +66,10 @@ Config.Tenue = {
 				shoes = {50, 0},
 				chain = {90, 0},
 				helmet = {-1, 0},
-				glasses = {5, 0}
+				glasses = {5, 0}	
 			}
 		}
 	},
-
 	{
 		label = 'Families',
 		id = {
@@ -94,13 +93,12 @@ Config.Tenue = {
 				shoes = {1, 8},
 				chain = {36, 0},
 				helmet = {-1, 0},
-				glasses = {5, 0}
+				glasses = {5, 0}	
 			}
 		}
 	},
-
 	{
-		label = 'Pigus kostiumas',
+		label = 'Habillé pour un entretient',
 		id = {
 			male = {
 				tshirt = {26, 0},
@@ -122,13 +120,12 @@ Config.Tenue = {
 				shoes = {0, 0},
 				chain = {2, 1},
 				helmet = {-1, 0},
-				glasses = {5, 0}
+				glasses = {5, 0}	
 			}
 		}
 	},
-
 	{
-		label = 'Prašmatnus',
+		label = 'Chic',
 		id = {
 			male = {
 				tshirt = {75, 0},
