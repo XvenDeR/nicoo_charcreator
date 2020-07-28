@@ -120,7 +120,7 @@ Config.Tenue = {
 				shoes = {0, 0},
 				chain = {2, 1},
 				helmet = {-1, 0},
-				glasses = {5, 0}	
+				glasses = {5, 0}
 			}
 		}
 	},
